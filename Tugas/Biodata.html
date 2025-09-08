@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Biodata</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      background: #f7f7f7;
+    }
+
+    .container {
+      width: 70%;
+      margin: 30px auto;
+      background: #fff;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      padding: 20px 30px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    h1 { 
+      text-align: center; 
+      margin-bottom: 5px;
+    }
+
+    h2 { 
+      text-align: center; 
+      margin-top: 0;
+    }
+
+    .foto-profil {
+      display: block;
+      margin: 10px auto 20px auto;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #666;
+    }
+
+    table { 
+      border-collapse: collapse; 
+      width: 80%; 
+      margin: 0 auto; 
+    }
+
+    td { 
+      padding: 8px; 
+      vertical-align: middle; 
+    }
+
+    td:nth-child(2) { 
+      width: 10px; 
+      text-align: center; 
+    }
+
+    select, input[type="text"], input[type="date"], textarea { 
+      width: 100%; 
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Biodata Mahasiswa Politeknik Negeri Malang</h1>
+    <h2>Foto Profil Saya</h2>
+
+    <img src="../img/PP.jpg" alt="Foto Profil" class="foto-profil">
+
+    <form>
+      <table border="1">
+        <tr>
+          <td>NAMA LENGKAP</td>
+          <td>:</td>
+          <td><input type="text" name="nama"></td>
+        </tr>
+        <tr>
+          <td>KELAS</td>
+          <td>:</td>
+          <td><input type="text" name="kelas"></td>
+        </tr>
+        <tr>
+          <td>JURUSAN</td>
+          <td>:</td>
+          <td><input type="text" name="jurusan"></td>
+        </tr>
+        <tr>
+          <td>NAMA KAMPUS</td>
+          <td>:</td>
+          <td><input type="text" name="kampus"></td>
+        </tr>
+        <tr>
+          <td>TANGGAL LAHIR</td>
+          <td>:</td>
+          <td><input type="date" name="tgl_lahir" placeholder="mm/dd/yyyy"></td>
+        </tr>
+        <tr>
+          <td>TEMPAT LAHIR</td>
+          <td>:</td>
+          <td><input type="text" name="tempat_lahir"></td>
+        </tr>
+        <tr>
+          <td>JENIS KELAMIN</td>
+          <td>:</td>
+          <td>
+            <label><input type="radio" name="jk" value="Laki-laki"> Laki-laki</label>
+            <label><input type="radio" name="jk" value="Perempuan"> Perempuan</label>
+          </td>
+        </tr>
+        <tr>
+          <td>AGAMA</td>
+          <td>:</td>
+          <td>
+            <select name="agama">
+              <option value="">---Pilih Agama---</option>
+              <option value="Islam">Islam</option>
+              <option value="Kristen">Kristen</option>
+              <option value="Katolik">Katolik</option>
+              <option value="Hindu">Hindu</option>
+              <option value="Buddha">Buddha</option>
+              <option value="Konghucu">Konghucu</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>GOLONGAN DARAH</td>
+          <td>:</td>
+          <td>
+            <label><input type="radio" name="golongan" value="O"> O</label><br>
+            <label><input type="radio" name="golongan" value="A"> A</label><br>
+            <label><input type="radio" name="golongan" value="B"> B</label><br>
+            <label><input type="radio" name="golongan" value="AB"> AB</label><br>
+          </td>
+        </tr>
+        <tr>
+          <td>HOBI</td>
+          <td>:</td>
+          <td>
+            <label><input type="checkbox" name="hobi" value="Membaca"> Membaca</label><br>
+            <label><input type="checkbox" name="hobi" value="Nonton"> Nonton</label><br>
+            <label><input type="checkbox" name="hobi" value="Beramal"> Beramal</label><br>
+          </td>
+        </tr>
+        <tr>
+          <td>ALAMAT</td>
+          <td>:</td>
+          <td><textarea name="alamat" rows="3"></textarea></td>
+        </tr>
+        <tr>
+          <td>KOTA/KABUPATEN</td>
+          <td>:</td>
+          <td><input type="text" name="kota"></td>
+        </tr>
+        <tr>
+          <td>PROVINSI</td>
+          <td>:</td>
+          <td><input type="text" name="provinsi"></td>
+        </tr>
+        <tr>
+          <td>KEWARGANEGARAAN</td>
+          <td>:</td>
+          <td><input type="text" name="KEWARGANEGARAAN"></td>
+        </tr>
+        <tr>
+          <td>NO.TELEPON</td>
+          <td>:</td>
+          <td><input type="text" name="NO.TELEPON"></td>
+        </tr>
+        <tr>
+          <td colspan="3" style="text-align:center;">
+            <button type="submit">Tampilkan</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <title>Praktikum Bagian 12 - Form</title>
+</head>
+<body>
+  <form action="#" method="POST">
+    <label>Nama: <input type="text" name="nama" size="30"></label><br><br>
+    <label>Alamat: <input type="text" name="alamat" size="50"></label><br><br>
+
+    <p>Jenis kendaraan yang dimiliki:</p>
+    <label><input type="radio" name="kendaraan" value="bike"> I have a bike</label><br>
+    <label><input type="radio" name="kendaraan" value="car"> I have a car</label><br>
+    <label><input type="radio" name="kendaraan" value="plane"> I have a plane</label><br><br>
+
+    <p>Checkbox contoh:</p>
+    <label><input type="checkbox" name="hobby" value="bike"> I have a bike</label><br>
+    <label><input type="checkbox" name="hobby" value="plane" checked> I have a plane</label><br><br>
+
+    <label>Negara:
+      <select name="negara" size="1">
+        <option value="us">United States</option>
+        <option value="sg">Singapore</option>
+        <option value="id" selected>Indonesia</option>
+        <option value="my">Malaysia</option>
+      </select>
+    </label><br><br>
+
+    <label>Password: <input type="password" name="pass" size="20"></label><br><br>
+    <label>Komentar panjang:<br>
+      <textarea name="komentar" cols="50" rows="6"></textarea>
+    </label><br><br>
+
+    <input type="submit" value="Send">
+    <input type="reset" value="Clear">
+  </form>
+
+  <form action="#" method="GET">
+    <label>Nama: <input type="text" name="nama_get" size="30"></label><br><br>
+    <input type="submit" value="Kirim GET">
+  </form>
+</body>
+</html>
