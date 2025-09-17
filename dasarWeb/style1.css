@@ -1,0 +1,75 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #d9f3ff, #f3e7ff); /* permainan warna */
+    line-height: 1.65;
+    padding-bottom: 1000px;
+}
+
+/* Latihan 1 - Flexbox Layout */
+.container-satu {
+    width: 1000px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Sidebar Kiri */
+.sidebar-satu {
+    flex: 1;
+    background: url("img/sidebar1.jpg") no-repeat center/cover, #f5f5f5;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.sidebar-satu h3 {
+    margin-top: 0;
+    color: #333;
+}
+.sidebar-satu ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar-satu li {
+    margin: 8px 0;
+}
+.sidebar-satu a {
+    text-decoration: none;
+    color: #0077cc;
+}
+.sidebar-satu a:hover {
+    color: #ff6600;
+}
+
+/* Kolom Utama */
+.kolom-utama {
+    flex: 2;
+    padding: 20px;
+    background: url("img/content-bg.jpg") no-repeat center/cover, #fafafa;
+    border-radius: 8px;
+}
+.kolom-utama h2 {
+    margin-top: 0;
+    color: #222;
+}
+
+/* Sidebar Kanan */
+.sidebar-dua {
+    flex: 1;
+    background: url("img/sidebar2.jpg") no-repeat center/cover, #f5f5f5;
+    padding: 15px;
+    border-radius: 8px;
+}
+.sidebar-dua h3 {
+    margin-top: 0;
+    color: #333;
+}

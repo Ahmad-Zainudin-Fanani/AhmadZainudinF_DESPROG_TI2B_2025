@@ -1,0 +1,22 @@
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: darkred;
+}
+
+.teks1 {
+    font-style: italic;
+    color: blue;
+}
+
+.teks2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+.teks3 {
+    font-family: "Courier New", monospace;
+    color: purple;
+}
