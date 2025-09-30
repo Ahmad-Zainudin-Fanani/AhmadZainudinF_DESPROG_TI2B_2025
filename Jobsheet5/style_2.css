@@ -1,0 +1,47 @@
+/* Gaya dasar halaman */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef1f5;
+    padding: 30px;
+}
+
+h1 {
+    color: #333;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+}
+
+/* Gaya Tabel */
+table {
+    width: 60%; 
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+/* Gaya Header Tabel */
+th {
+    background-color: #4CAF50; /* Hijau Utama */
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding: 15px;
+}
+
+/* Gaya Sel Data */
+td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+/* Zebra Stripes: Baris genap memiliki latar belakang berbeda */
+tr:nth-child(even) {
+    background-color: #f6f6f6;
+}
+
+/* Efek Hover (Saat kursor di atas baris) */
+tr:hover {
+    background-color: #c8e6c9; /* Warna hijau muda saat di-hover */
+}
