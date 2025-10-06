@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styleSlideShow.css"/>
+    <script src="jquery-3.7.1.js"></script>
+    <script>
+        var i = 0;
+        $(document).ready(function() {
+            // Sembunyikan semua gambar dan judul saat halaman dimuat
+            $('.slidertitle, #slider img').hide();
+            
+            // Jalankan slideshow untuk pertama kali
+            showNextImage();
+
+            // Atur interval agar slideshow berjalan otomatis setiap 3 detik
+            setInterval(showNextImage, 3000);
+        });
+
+        function showNextImage() {
+            i++; // Tambah counter untuk gambar berikutnya
+            
+            // Animasikan gambar dan judul yang sesuai
+            $('#sliderImage' + i).appendTo('#slider').fadeIn(1100).delay(1100).fadeOut(1100);
+            $('#title' + i).appendTo('#slider').fadeIn(1100).delay(1100).fadeOut(1100);
+
+            // Jika sudah gambar terakhir (gambar ke-3), reset counter
+            if (i == 3) {
+                i = 0;
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="slider">
+        <img id="sliderImage1" src="../img/tobeymaguire.jpg">
+        <div class="slidertitle" id="title1">Gambar 1</div>
+        
+        <img id="sliderImage2" src="../img/AndrewGarfield.jpg">
+        <div class="slidertitle" id="title2">Gambar 2</div>
+        
+        <img id="sliderImage3" src="../img/tomHolland.jpg">
+        <div class="slidertitle" id="title3">Gambar 3</div>
+    </div>
+</body>
+</html>
