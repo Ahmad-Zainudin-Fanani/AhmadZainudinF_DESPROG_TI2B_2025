@@ -1,0 +1,105 @@
+[
+    {
+        "nama_lengkap": "Ahmad Zainudin Fanani",
+        "kelas": "Kelas 12",
+        "jurusan": "IPA",
+        "nilai_rata_rata": "80-89 (Baik)",
+        "minat_bidang": [
+            "Teknologi & IT",
+            "Ekonomi & Bisnis"
+        ],
+        "kemampuan_fisik": "Baik (Sesekali olahraga)",
+        "kondisi_ekonomi": "Berkecukupan (Mampu biaya kuliah)",
+        "kesiapan_mental": "Siap (Bersedia belajar)",
+        "motivasi_utama": "saya ingin menjadi orang yang bermanfaat untuk banyak orang melalui karir yang saya tempuh",
+        "rekomendasi_jalur": "PTN",
+        "detail_rekomendasi": {
+            "pilihan_utama": "PTN",
+            "alasan": "Profil akademik dan minatmu menunjukkan kesiapan kuat untuk jalur perguruan tinggi negeri. Jalur ini memberi fleksibilitas jurusan, akses riset dan kompetisi, serta jaringan alumni besar. Dengan skema beasiswa\/UKT, jalur PTN tetap terjangkau.\n\nMinat: Teknologi & IT, Ekonomi & Bisnis. Rerata nilai: 80-89 (Baik). Kondisi fisik: Baik (Sesekali olahraga). Kondisi ekonomi: Berkecukupan (Mampu biaya kuliah). Kesiapan mental: Siap (Bersedia belajar). Motivasi: saya ingin menjadi orang yang bermanfaat untuk banyak orang melalui karir yang saya tempuh.",
+            "pilihan_alternatif": [
+                "KEDINASAN",
+                "POLISI"
+            ],
+            "rekomendasi_kampus": [
+                {
+                    "nama_kampus": "Universitas Indonesia (UI)",
+                    "jurusan": "Teknik Informatika \/ Sistem Informasi",
+                    "alasan": "Selaras dengan minat dan latar Teknologi & IT, cocok untuk siswa jurusan IPA",
+                    "prospek_karir": "Software engineer, analis data, profesional bidang Teknologi & IT"
+                },
+                {
+                    "nama_kampus": "Institut Teknologi Sepuluh Nopember (ITS)",
+                    "jurusan": "Data Science \/ AI \/ Informatika",
+                    "alasan": "Selaras dengan minat dan latar Teknologi & IT, cocok untuk siswa jurusan IPA",
+                    "prospek_karir": "Software engineer, analis data, profesional bidang Teknologi & IT"
+                },
+                {
+                    "nama_kampus": "Universitas Airlangga (UNAIR)",
+                    "jurusan": "Manajemen \/ Akuntansi",
+                    "alasan": "Selaras dengan minat dan latar Ekonomi & Bisnis, cocok untuk siswa jurusan IPA",
+                    "prospek_karir": "Software engineer, analis data, profesional bidang Ekonomi & Bisnis"
+                }
+            ],
+            "langkah_persiapan": [
+                "Mapping jurusan sesuai minat & kekuatan akademik.",
+                "Target SNBP\/SNBT; latihan tryout minimal mingguan.",
+                "Bangun portofolio (lomba\/proyek).",
+                "Riset kampus: kuota, passing grade historis, akreditasi.",
+                "Rencanakan beasiswa (KIP, beasiswa kampus, dll).",
+                "Jaga konsistensi belajar & manajemen waktu."
+            ],
+            "tips_khusus": "Fokus konsistensi latihan soal & perkuat konsep dasar. Pantau info resmi SNPMB & kampus. Jaga keseimbangan belajar–istirahat.",
+            "persentase_kecocokan": 56
+        },
+        "id": "ef625d08fae1",
+        "created_date": "2025-10-20T02:41:03+00:00"
+    },
+    {
+        "nama_lengkap": "Ahmad Zainudin Fanani",
+        "kelas": "Kelas 12",
+        "jurusan": "IPA",
+        "nilai_rata_rata": "80-89 (Baik)",
+        "minat_bidang": [
+            "Teknologi & IT"
+        ],
+        "kemampuan_fisik": "Sangat Baik (Sering olahraga, tidak ada masalah kesehatan)",
+        "kondisi_ekonomi": "Cukup (Perlu beasiswa)",
+        "kesiapan_mental": "Siap (Bersedia belajar)",
+        "motivasi_utama": "ingin menjadi orang yang berguna dimasa depan",
+        "rekomendasi_jalur": "PTN",
+        "detail_rekomendasi": {
+            "pilihan_utama": "PTN",
+            "alasan": "Profil akademik dan minatmu menunjukkan kesiapan kuat untuk jalur perguruan tinggi negeri. Jalur ini memberi fleksibilitas jurusan, akses riset dan kompetisi, serta jaringan alumni besar. Dengan skema beasiswa\/UKT, jalur PTN tetap terjangkau.\n\nMinat: Teknologi & IT. Rerata nilai: 80-89 (Baik). Kondisi fisik: Sangat Baik (Sering olahraga, tidak ada masalah kesehatan). Kondisi ekonomi: Cukup (Perlu beasiswa). Kesiapan mental: Siap (Bersedia belajar). Motivasi: ingin menjadi orang yang berguna dimasa depan.",
+            "pilihan_alternatif": [
+                "KEDINASAN",
+                "POLISI"
+            ],
+            "rekomendasi_kampus": [
+                {
+                    "nama_kampus": "Universitas Indonesia (UI)",
+                    "jurusan": "Teknik Informatika \/ Sistem Informasi",
+                    "alasan": "Selaras dengan minat dan latar Teknologi & IT, cocok untuk siswa jurusan IPA",
+                    "prospek_karir": "Software engineer, analis data, profesional bidang Teknologi & IT"
+                },
+                {
+                    "nama_kampus": "Institut Teknologi Sepuluh Nopember (ITS)",
+                    "jurusan": "Data Science \/ AI \/ Informatika",
+                    "alasan": "Selaras dengan minat dan latar Teknologi & IT, cocok untuk siswa jurusan IPA",
+                    "prospek_karir": "Software engineer, analis data, profesional bidang Teknologi & IT"
+                }
+            ],
+            "langkah_persiapan": [
+                "Mapping jurusan sesuai minat & kekuatan akademik.",
+                "Target SNBP\/SNBT; latihan tryout minimal mingguan.",
+                "Bangun portofolio (lomba\/proyek).",
+                "Riset kampus: kuota, passing grade historis, akreditasi.",
+                "Rencanakan beasiswa (KIP, beasiswa kampus, dll).",
+                "Jaga konsistensi belajar & manajemen waktu."
+            ],
+            "tips_khusus": "Fokus konsistensi latihan soal & perkuat konsep dasar. Pantau info resmi SNPMB & kampus. Jaga keseimbangan belajar–istirahat.",
+            "persentase_kecocokan": 44
+        },
+        "id": "8bbcc6200dc4",
+        "created_date": "2025-10-20T12:32:27+00:00"
+    }
+]
