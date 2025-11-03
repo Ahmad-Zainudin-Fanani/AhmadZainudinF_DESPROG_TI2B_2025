@@ -101,5 +101,47 @@
         },
         "id": "8bbcc6200dc4",
         "created_date": "2025-10-20T12:32:27+00:00"
+    },
+    {
+        "nama_lengkap": "pandi",
+        "kelas": "Kelas 12",
+        "jurusan": "IPA",
+        "nilai_rata_rata": "90-100 (Sangat Baik)",
+        "minat_bidang": [
+            "Ekonomi & Bisnis"
+        ],
+        "kemampuan_fisik": "Sangat Baik (Sering olahraga, tidak ada masalah kesehatan)",
+        "kondisi_ekonomi": "Berkecukupan (Mampu biaya kuliah)",
+        "kesiapan_mental": "Sangat siap (Suka tantangan dan kompetisi)",
+        "motivasi_utama": "pandi",
+        "rekomendasi_jalur": "KEDINASAN",
+        "detail_rekomendasi": {
+            "pilihan_utama": "KEDINASAN",
+            "alasan": "Kondisi ekonomi dan motivasi stabilitas karir selaras dengan keunggulan sekolah kedinasan: biaya relatif ringan\/ditanggung, pendidikan terarah, dan peluang penempatan kerja. Disiplin belajar serta kesiapan seleksi berjenjang adalah kuncinya.\n\nMinat: Ekonomi & Bisnis. Rerata nilai: 90-100 (Sangat Baik). Kondisi fisik: Sangat Baik (Sering olahraga, tidak ada masalah kesehatan). Kondisi ekonomi: Berkecukupan (Mampu biaya kuliah). Kesiapan mental: Sangat siap (Suka tantangan dan kompetisi). Motivasi: pandi.",
+            "pilihan_alternatif": [
+                "PTN",
+                "POLISI"
+            ],
+            "rekomendasi_kampus": [
+                {
+                    "nama_kampus": "PKN STAN",
+                    "jurusan": "Akuntansi \/ Pajak \/ Kepabeanan",
+                    "alasan": "Selaras dengan minat dan latar Ekonomi & Bisnis, cocok untuk siswa jurusan IPA",
+                    "prospek_karir": "ASN sesuai instansi, stabil dengan jenjang karir jelas"
+                }
+            ],
+            "langkah_persiapan": [
+                "Pahami alur seleksi (STIS, IPDN, PKN STAN, dsb).",
+                "Latihan SKD\/TPA\/TIU\/TWK\/TEU periodik.",
+                "Perkuat fisik dasar (lari, push-up, sit-up).",
+                "Siapkan berkas administrasi lebih awal.",
+                "Ikuti komunitas belajar\/seminar kedinasan.",
+                "Buat timeline H-90 menuju seleksi."
+            ],
+            "tips_khusus": "Disiplin adalah kunci. Jadwal harian untuk SKD dan fisik ringan. Cek pengumuman resmi instansi secara berkala.",
+            "persentase_kecocokan": 40
+        },
+        "id": "adda61d80101",
+        "created_date": "2025-11-03T05:30:23+00:00"
     }
 ]
